@@ -47,6 +47,7 @@ class Student {
 		this.rollNo = rollNo;
 		this.name = name;
 	}
+	
 	@Override
 	public String toString() {
 		return "Student [rollNo=" + rollNo + ", name=" + name + "]";

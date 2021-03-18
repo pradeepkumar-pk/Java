@@ -9,7 +9,7 @@ import java.util.ListIterator;
 public class ComparableDemo {
 	public static void main(String[] args) {
 		List<StudentComparable> list = new ArrayList<>();
-		list.add(new StudentComparable(56, "pradeep", 27));
+		list.add(new StudentComparable(86, "pradeep", 27));
 		list.add(new StudentComparable(24, "neeraj", 25));
 		list.add(new StudentComparable(78, "ravi", 27));
 		list.add(new StudentComparable(99, "sanjeev", 26));

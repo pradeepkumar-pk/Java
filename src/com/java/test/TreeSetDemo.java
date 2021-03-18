@@ -14,9 +14,10 @@ public class TreeSetDemo {
 		tset.add(45);
 		tset.add(12);
 		tset.add(34);
+		
 		System.out.println("tset1: " + tset);
 		
-		tset.remove(4);
+		tset.remove(34);
 		System.out.println("tset2: " + tset);
 		
 		System.out.println("\n---Using For Loop:");

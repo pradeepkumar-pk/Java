@@ -26,13 +26,18 @@ class Student1 implements Comparable<Object>{
 	
 	@Override
 	public int compareTo(Object obj) {
+		
 		Student1 s = (Student1)obj;
-		if(this.rollNo > s.rollNo)
-			return 1;
-		else if(this.rollNo < s.rollNo)
+
+		//return this.rollNo - s.rollNo; //for ascending order
+		return s.rollNo - this.rollNo; //for descending order
+
+		/*if(this.rollNo > s.rollNo)
 			return -1;
+		else if(this.rollNo < s.rollNo)
+			return 1;
 		else
-			return 0;
+			return 0;*/
 	}
 	
 	public String toString() {

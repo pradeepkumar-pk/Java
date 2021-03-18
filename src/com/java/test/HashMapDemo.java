@@ -38,12 +38,13 @@ public class HashMapDemo {
 		Collection<String> coll2 = map.keySet();
 		System.out.println("\nmap keysets: " + coll2);
 		
+		System.out.println("\nkeys using for loop: ");
         // using keySet() for iteration over keys 
         for (String str : map.keySet()) {
         	System.out.println("key: " + str);
         }
              
-          
+		System.out.println("\nvalues using for loop: ");
         // using values() for iteration over keys 
         for (Integer intg : map.values()) {
         	System.out.println("value: " + intg);
